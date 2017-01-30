@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bar_height">65dp</dimen>
+    <dimen name="bar_min_height">50dp</dimen>
+    <dimen name="bar_icon_size">32dp</dimen>
+    <dimen name="bar_icon_background_size">36dp</dimen>
+    <dimen name="bar_margin_left">65dp</dimen>
+    <dimen name="bar_radius">120dp</dimen>
+    <dimen name="bar_action_icon_size">20dp</dimen>
+    <dimen name="bar_icon_margin_left">10dp</dimen>
+    <dimen name="bar_actions_margin_right">12dp</dimen>
+    <dimen name="bar_actions_margin_left">5dp</dimen>
+    <dimen name="bar_action_item_padding_horizontal">20dp</dimen>
+    <dimen name="bar_action_item_padding_vertical">10dp</dimen>
+</resources>

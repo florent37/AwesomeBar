@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AwesomeBar">
+        <attr name="bar_primaryColor" format="color"/>
+        <attr name="bar_primaryDarkColor" format="color"/>
+        <attr name="bar_animatedIcons" format="boolean"/>
+        <attr name="bar_actionsColor" format="color"/>
+    </declare-styleable>
+
+</resources>

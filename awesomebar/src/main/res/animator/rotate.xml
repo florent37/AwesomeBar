@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator
+        android:duration="300"
+        android:interpolator="@android:anim/accelerate_interpolator"
+        android:propertyName="rotation"
+        android:valueFrom="0"
+        android:valueTo="-20" />
+
+    <objectAnimator
+        android:duration="300"
+        android:startOffset="300"
+        android:interpolator="@android:anim/decelerate_interpolator"
+        android:propertyName="rotation"
+        android:valueFrom="-20"
+        android:valueTo="0" />
+</set>
