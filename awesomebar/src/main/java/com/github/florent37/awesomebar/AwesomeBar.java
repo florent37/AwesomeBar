@@ -80,7 +80,7 @@ public class AwesomeBar extends FrameLayout {
         iconAppBackground = (ImageView) findViewById(R.id.bar_app_icon_background);
         actionsLayout = (ViewGroup) findViewById(R.id.bar_actions_layout);
 
-        iconMenu.setImageDrawable(AnimatedVectorDrawableCompat.create(getContext(), R.drawable.ic_menu_animated));
+        iconMenu.setImageDrawable(AnimatedVectorDrawableCompat.create(getContext(), R.drawable.awsb_ic_menu_animated));
 
         iconApp.setImageDrawable(getAppIcon(context));
         iconAppBackground.setImageDrawable(getAppIcon(context));

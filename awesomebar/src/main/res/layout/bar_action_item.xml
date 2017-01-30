@@ -16,7 +16,7 @@
         android:layout_marginBottom="@dimen/bar_action_item_padding_vertical"
         android:layout_gravity="center_vertical"
         android:scaleType="fitCenter"
-        app:srcCompat="@drawable/ic_edit_animated"
+        app:srcCompat="@drawable/awsb_ic_edit_animated"
         android:layout_marginRight="5dp"
         tools:background = "@android:color/black"/>
 

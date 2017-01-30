@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
 
-        bar.addAction(R.drawable.ic_edit_animated, "Compose");
+        bar.addAction(R.drawable.awsb_ic_edit_animated, "Compose");
 
         bar.setActionItemClickListener(new AwesomeBar.ActionItemClickListener() {
             @Override

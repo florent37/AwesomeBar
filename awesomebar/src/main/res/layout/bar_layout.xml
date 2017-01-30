@@ -47,6 +47,6 @@
         android:layout_gravity="center_vertical"
         android:layout_marginLeft="@dimen/bar_icon_margin_left"
         android:scaleType="fitCenter"
-        android:src="@drawable/ic_menu_white_24dp" />
+        android:src="@drawable/awsb_ic_menu_white_24dp" />
 
 </FrameLayout>
