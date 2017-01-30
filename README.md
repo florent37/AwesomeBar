@@ -38,6 +38,12 @@ In your module [![Download](https://api.bintray.com/packages/florent37/maven/Awe
 compile 'com.github.florent37:awesomebar:1.0.0'
 ```
 
+#Inspiration
+
+Gmail Mobile from **Weekz**
+
+[]https://material.uplabs.com/posts/gmail-mobile-concept](https://material.uplabs.com/posts/gmail-mobile-concept)
+
 #Credits
 
 Author: Florent Champigny [http://www.florentchampigny.com/](http://www.florentchampigny.com/)
