@@ -42,7 +42,7 @@ compile 'com.github.florent37:awesomebar:1.0.0'
 
 Gmail Mobile from **Weekz**
 
-[]https://material.uplabs.com/posts/gmail-mobile-concept](https://material.uplabs.com/posts/gmail-mobile-concept)
+[https://material.uplabs.com/posts/gmail-mobile-concept](https://material.uplabs.com/posts/gmail-mobile-concept)
 
 #Credits
 
