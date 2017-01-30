@@ -13,6 +13,24 @@
             android:elevation="4dp" />
 ```
 
+```java
+bar.addAction(R.drawable.awsb_ic_edit_animated, "Compose");
+
+bar.setActionItemClickListener(new AwesomeBar.ActionItemClickListener() {
+    @Override
+    public void onActionItemClicked(int position, ActionItem actionItem) {
+        Toast.makeText(getBaseContext(), actionItem.getText()+" clicked", Toast.LENGTH_LONG).show();
+    }
+});
+
+bar.setOnMenuClickedListener(new View.OnClickListener() {
+    @Override
+    public void onClick(View v) {
+        drawerLayout.openDrawer(Gravity.START);
+    }
+});
+```
+
 #Download
 
 In your module [![Download](https://api.bintray.com/packages/florent37/maven/AwesomeBar/images/download.svg)](https://bintray.com/florent37/maven/AwesomeBar/_latestVersion)
