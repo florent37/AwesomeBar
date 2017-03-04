@@ -36,6 +36,16 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //bar.addOverflowItem("overflow 1");
+        //bar.addOverflowItem("overflow 2");
+        bar.setOverflowActionItemClickListener(new AwesomeBar.OverflowActionItemClickListener() {
+            @Override
+            public void onOverflowActionItemClicked(int position, String item) {
+                Toast.makeText(getBaseContext(), item+" clicked", Toast.LENGTH_LONG).show();
+            }
+
+        });
+
         bar.setOnMenuClickedListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

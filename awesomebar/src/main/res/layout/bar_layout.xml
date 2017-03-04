@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="@dimen/bar_height"
     android:orientation="vertical"
-    tools:background="">
+    tools:background="#AA0000">
 
     <FrameLayout
         android:layout_width="wrap_content"
@@ -25,28 +26,41 @@
             android:layout_width="@dimen/bar_icon_size"
             android:layout_height="@dimen/bar_icon_size"
             android:layout_gravity="center"
-            android:scaleType="fitCenter"
-            tools:src="@drawable/gmail_logo" />
+            android:scaleType="fitCenter" />
 
     </FrameLayout>
 
     <LinearLayout
-        android:id="@+id/bar_actions_layout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical|right"
-        android:orientation="horizontal"
-        android:layout_marginRight="@dimen/bar_actions_margin_right">
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/bar_actions_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+        <android.support.v7.widget.ActionMenuView
+            android:id="@+id/bar_actions_menu_view"
+            android:layout_width="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:layout_height="wrap_content"/>
 
     </LinearLayout>
 
-    <ImageView
+    <android.support.v7.widget.AppCompatImageView
         android:id="@+id/bar_menu_icon"
         android:layout_width="@dimen/bar_icon_size"
         android:layout_height="@dimen/bar_icon_size"
         android:layout_gravity="center_vertical"
         android:layout_marginLeft="@dimen/bar_icon_margin_left"
         android:scaleType="fitCenter"
-        android:src="@drawable/awsb_ic_menu_white_24dp" />
+        app:srcCompat="@drawable/awsb_ic_menu_white_24dp" />
 
 </FrameLayout>
