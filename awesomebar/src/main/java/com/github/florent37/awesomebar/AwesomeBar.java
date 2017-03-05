@@ -45,6 +45,7 @@ public class AwesomeBar extends FrameLayout {
     private Settings settings;
 
     private ImageView iconMenu;
+    private ImageView iconBack;
     private ImageView iconApp;
     private ImageView iconAppBackground;
     private ViewGroup actionsLayout;
@@ -84,6 +85,7 @@ public class AwesomeBar extends FrameLayout {
         addView(LayoutInflater.from(context).inflate(R.layout.bar_layout, this, false));
 
         iconMenu = (ImageView) findViewById(R.id.bar_menu_icon);
+        iconBack = (ImageView) findViewById(R.id.bar_back_icon);
         iconApp = (ImageView) findViewById(R.id.bar_app_icon);
         iconAppBackground = (ImageView) findViewById(R.id.bar_app_icon_background);
         actionsLayout = (ViewGroup) findViewById(R.id.bar_actions_layout);
@@ -130,6 +132,16 @@ public class AwesomeBar extends FrameLayout {
                     overflowActionItemClickListener.onOverflowActionItemClicked(item.getOrder(), item.getTitle().toString());
                 }
                 return true;
+            }
+        });
+
+        iconBack.setVisibility(GONE);
+        iconBack.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (onMenuClickListener != null) {
+                    onMenuClickListener.onClick(iconBack);
+                }
             }
         });
     }
@@ -252,6 +264,16 @@ public class AwesomeBar extends FrameLayout {
 
     public void setOverflowActionItemClickListener(OverflowActionItemClickListener overflowActionItemClickListener) {
         this.overflowActionItemClickListener = overflowActionItemClickListener;
+    }
+
+    public void displayHomeAsUpEnabled(boolean enabled) {
+        if(enabled) {
+            this.iconBack.setVisibility(VISIBLE);
+            this.iconMenu.setVisibility(GONE);
+        } else {
+            this.iconBack.setVisibility(GONE);
+            this.iconMenu.setVisibility(VISIBLE);
+        }
     }
 
     public interface ActionItemClickListener {

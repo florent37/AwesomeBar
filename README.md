@@ -29,6 +29,8 @@ bar.setOnMenuClickedListener(new View.OnClickListener() {
         drawerLayout.openDrawer(Gravity.START);
     }
 });
+
+bar.displayHomeAsUpEnabled(true / false);
 ```
 
 Add an overflow
@@ -57,6 +59,16 @@ compile 'com.github.florent37:awesomebar:1.0.1'
 Gmail Mobile from **Weekz**
 
 [https://material.uplabs.com/posts/gmail-mobile-concept](https://material.uplabs.com/posts/gmail-mobile-concept)
+
+# Changelog
+
+##1.0.2
+
+Added back button
+
+##1.0.1
+
+Added overflow menu
 
 #Credits
 

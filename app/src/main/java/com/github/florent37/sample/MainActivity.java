@@ -52,5 +52,7 @@ public class MainActivity extends AppCompatActivity {
                 drawerLayout.openDrawer(Gravity.START);
             }
         });
+
+        bar.displayHomeAsUpEnabled(false);
     }
 }

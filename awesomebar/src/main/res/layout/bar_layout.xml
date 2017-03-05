@@ -49,18 +49,28 @@
         <android.support.v7.widget.ActionMenuView
             android:id="@+id/bar_actions_menu_view"
             android:layout_width="wrap_content"
-            android:layout_gravity="right|center_vertical"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical" />
 
     </LinearLayout>
 
     <android.support.v7.widget.AppCompatImageView
         android:id="@+id/bar_menu_icon"
-        android:layout_width="@dimen/bar_icon_size"
-        android:layout_height="@dimen/bar_icon_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
         android:layout_marginLeft="@dimen/bar_icon_margin_left"
         android:scaleType="fitCenter"
         app:srcCompat="@drawable/awsb_ic_menu_white_24dp" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/bar_back_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="9dp"
+        android:padding="6dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/awsb_ic_arrow_back_white_24dp" />
 
 </FrameLayout>
