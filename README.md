@@ -51,7 +51,7 @@ bar.setOverflowActionItemClickListener(new AwesomeBar.OverflowActionItemClickLis
 
 In your module [![Download](https://api.bintray.com/packages/florent37/maven/AwesomeBar/images/download.svg)](https://bintray.com/florent37/maven/AwesomeBar/_latestVersion)
 ```groovy
-compile 'com.github.florent37:awesomebar:1.0.1'
+compile 'com.github.florent37:awesomebar:1.0.2'
 ```
 
 #Inspiration
