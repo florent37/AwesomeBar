@@ -47,14 +47,14 @@ bar.setOverflowActionItemClickListener(new AwesomeBar.OverflowActionItemClickLis
 });
 ```
 
-#Download
+# Download
 
 In your module [![Download](https://api.bintray.com/packages/florent37/maven/AwesomeBar/images/download.svg)](https://bintray.com/florent37/maven/AwesomeBar/_latestVersion)
 ```groovy
 compile 'com.github.florent37:awesomebar:1.0.2'
 ```
 
-#Inspiration
+# Inspiration
 
 Gmail Mobile from **Weekz**
 
@@ -62,15 +62,15 @@ Gmail Mobile from **Weekz**
 
 # Changelog
 
-##1.0.2
+## 1.0.2
 
 Added back button
 
-##1.0.1
+## 1.0.1
 
 Added overflow menu
 
-#Credits
+# Credits
 
 Author: Florent Champigny [http://www.florentchampigny.com/](http://www.florentchampigny.com/)
 
