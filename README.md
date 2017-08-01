@@ -64,8 +64,9 @@ Gmail Mobile from **Weekz**
 
 # Changelog
 
-## 1.0.2
+## 1.0.3
 
+Can change backgrond color
 
 ## 1.0.2
 
