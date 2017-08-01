@@ -65,7 +65,6 @@ public class AwesomeBar extends FrameLayout {
     public AwesomeBar(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         radius = getResources().getDimensionPixelOffset(R.dimen.bar_radius);
-        setBackgroundColor(Color.WHITE);
 
         setMinimumHeight(getResources().getDimensionPixelOffset(R.dimen.bar_min_height));
 

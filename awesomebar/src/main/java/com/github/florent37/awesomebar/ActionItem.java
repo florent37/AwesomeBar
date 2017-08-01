@@ -77,17 +77,17 @@ public class ActionItem extends LinearLayout {
     }
 
     private boolean tryToAnimate(){
-        final Drawable drawable = icon.getDrawable();
-        if (drawable instanceof AnimatedVectorDrawable) {
-            final AnimatedVectorDrawable d = (AnimatedVectorDrawable) drawable;
-            d.start();
-            return true;
-        } else if (drawable instanceof AnimatedVectorDrawableCompat) {
-            final AnimatedVectorDrawableCompat d = (AnimatedVectorDrawableCompat) drawable;
-            d.start();
-            return true;
-        }
-        return false;
+            final Drawable drawable = icon.getDrawable();
+            if (drawable instanceof AnimatedVectorDrawable) {
+                final AnimatedVectorDrawable d = (AnimatedVectorDrawable) drawable;
+                d.start();
+                return true;
+            } else if (drawable instanceof AnimatedVectorDrawableCompat) {
+                final AnimatedVectorDrawableCompat d = (AnimatedVectorDrawableCompat) drawable;
+                d.start();
+                return true;
+            }
+            return false;
     }
 
     @Override
