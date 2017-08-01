@@ -10,6 +10,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@android:color/white"
+            app:bar_primaryColor="#000000"
+            app:bar_primaryColorDark="#000000"
             android:elevation="4dp" />
 ```
 
@@ -51,7 +53,7 @@ bar.setOverflowActionItemClickListener(new AwesomeBar.OverflowActionItemClickLis
 
 In your module [![Download](https://api.bintray.com/packages/florent37/maven/AwesomeBar/images/download.svg)](https://bintray.com/florent37/maven/AwesomeBar/_latestVersion)
 ```groovy
-compile 'com.github.florent37:awesomebar:1.0.2'
+compile 'com.github.florent37:awesomebar:1.0.3'
 ```
 
 # Inspiration
@@ -61,6 +63,9 @@ Gmail Mobile from **Weekz**
 [https://material.uplabs.com/posts/gmail-mobile-concept](https://material.uplabs.com/posts/gmail-mobile-concept)
 
 # Changelog
+
+## 1.0.2
+
 
 ## 1.0.2
 
