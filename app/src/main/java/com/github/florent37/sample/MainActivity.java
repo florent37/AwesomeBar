@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
 
         //bar.addOverflowItem("overflow 1");
         //bar.addOverflowItem("overflow 2");
+        //bar.cleanOverflowMenu();
         bar.setOverflowActionItemClickListener(new AwesomeBar.OverflowActionItemClickListener() {
             @Override
             public void onOverflowActionItemClicked(int position, String item) {
@@ -45,6 +46,8 @@ public class MainActivity extends AppCompatActivity {
             }
 
         });
+
+        //bar.setIcon(R.drawable.gmail_logo_2);
 
         bar.setOnMenuClickedListener(new View.OnClickListener() {
             @Override
