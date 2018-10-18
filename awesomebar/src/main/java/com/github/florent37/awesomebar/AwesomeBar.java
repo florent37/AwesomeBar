@@ -187,6 +187,10 @@ public class AwesomeBar extends FrameLayout {
         valueAnimator.start();
     }
 
+    public void setIcon(final int iconId){
+        iconApp.setImageResource(iconId);
+    }
+
     private void animateMenuImage() {
         final Drawable drawable = iconMenu.getDrawable();
         if (drawable instanceof AnimatedVectorDrawableCompat) {
@@ -259,6 +263,10 @@ public class AwesomeBar extends FrameLayout {
         actionMenuView.getMenu().add(item);
 
         actionMenuView.setVisibility(VISIBLE);
+    }
+
+    public void cleanOverflowMenu(){
+        actionMenuView.getMenu().clear();
     }
 
     public void setOverflowActionItemClickListener(OverflowActionItemClickListener overflowActionItemClickListener) {
